@@ -1,0 +1,15 @@
+{
+    "name": "kuenda/xpto-outdoors",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "kuendalove00",
+            "email": "kuendalove14@gmail.com"
+        }
+    ],
+    "require": {}
+}
