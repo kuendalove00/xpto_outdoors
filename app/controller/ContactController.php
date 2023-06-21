@@ -10,8 +10,8 @@ class ContactController
 
     }
 
-    public function store()
+    public function store($params)
     {
-        
+
     }
 }

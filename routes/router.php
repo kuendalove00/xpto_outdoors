@@ -20,12 +20,11 @@ function carregar(string $controller, string $acao)
             );
         }
 
-        $controllerInstance->$acao();
+        $controllerInstance->$acao((object) $_REQUEST);
         }catch(Exception $e)
         {
             echo $e->getMessage();
         }
-
 }
 
 $routes = [
